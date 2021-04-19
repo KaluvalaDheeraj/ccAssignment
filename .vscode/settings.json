@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4ffb97ec-ffcb-4043-b2a3-7303ad074691/resourceGroups/web-app/providers/Microsoft.Web/sites/bits-pilani-cc-assignment1",
+    "appService.deploySubpath": "."
+}
