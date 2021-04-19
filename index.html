@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>
+Login Form
+</title>
+</head>
+<body>
+<h1 style="text-align: center;color:black;margin-bottom: 20px;"> Login Page for Cloud computing Assignment </h1>
+<form name="login">
+Username<input type="text" name="userid" style="margin: 10px 10px 10px 10px ;"/> <br>
+Password<input type="password" name="passwrd" style="margin: 10px 10px 10px 10px ;"/> <br>
+<input type="button" onclick="check(this.form)" value="Login" style="margin-right: 20px;margin-left: 100px;"/>
+<input type="reset" value="Cancel"/>
+</form>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "CCAssignment" && form.passwrd.value == "2020mt93657")
+  {
+    alert("Login Successfully")
+  }
+ else
+ {
+   alert("Login failed due to incorrect username and password")/*displays error message*/
+  }
+}
+</script>
+</body>
+</html>
